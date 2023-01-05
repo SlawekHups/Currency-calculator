@@ -10,11 +10,12 @@ html {
 
 .body {
     font: normal 18px/1.5'Montserrat', sans-serif;
-    background-color: rgba(240, 236, 236, 0.554);
+    /* background-color: rgba(240, 236, 236, 0.554); */
+    background-image: url(../images/);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     margin: auto;
-    padding: 20px;
-}
-
-.body--dark {
-    background: #dac7bc;
+    padding: 40px;
 }

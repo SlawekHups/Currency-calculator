@@ -30,6 +30,11 @@
     border: 1px solid #6745E2;
 }
 
+.form__field:invalid {
+    /* background-color: hsl(348, 83%, 87%); */
+    background-color: #f2eafe;
+}
+
 .form__select {
     width: 200px;
     border-radius: 10px;
@@ -51,6 +56,10 @@
 
 .form__span {
     color: #6745E2;
-  font-weight: bold;
-  padding: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.form__info {
+    color: #6745E2;
 }
