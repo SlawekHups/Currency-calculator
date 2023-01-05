@@ -12,7 +12,7 @@ A currency exchange program is a software application that allows users to excha
 
 Currency converter, which you can visit here: -> [Currency-calculator](https://slawekhups.github.io/Currency-calculator/)
 
-![enter image description here](https://slawekhups.github.io/Currency-calculator/images/converter.gif)
+![enter image description here](.//images/converter.gif)
 
 ## Technologies used in the project:
 
