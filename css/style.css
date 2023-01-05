@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font: normal 18px/1.5'Montserrat', sans-serif;
+    /* background-color: rgba(240, 236, 236, 0.554); */
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    padding: 40px;
+}

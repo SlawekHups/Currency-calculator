@@ -1,0 +1,11 @@
+.section__header {
+    font-size: 24px;
+    color: hwb(253 13% 13%);
+    max-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.display {
+    display: none;
+}
