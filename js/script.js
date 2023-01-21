@@ -1,6 +1,6 @@
 {
 
-    const currencyCalculator = (currencyUnit, inputAmount) => {
+    const calculateResult = (currencyUnit, inputAmount) => {
         const plnEur = 4.6853;
         const plnFunt = 5.3046;
         const plnUsa = 4.4167;
@@ -31,7 +31,7 @@
         const inputAmount = +inputAmountElement.value;
         const currencyUnit = currencyUnitElement.value;
 
-        const result = currencyCalculator(currencyUnit, inputAmount);
+        const result = calculateResult(currencyUnit, inputAmount);
 
         updateResultText(currencyUnit, result, inputAmount);
 
